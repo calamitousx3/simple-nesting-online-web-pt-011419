@@ -86,7 +86,7 @@ def adding_matz
   #:languages => ["LISP", "C"]
 #
 })
-    programmer_hash[:yukihiro_matsumoto]
+    programmer_hash[:yukihiro_matsumoto] = 
     
     To add something, you just need to put it in the programmer_hash[:new_symbol] = {hash you want to add}
 
