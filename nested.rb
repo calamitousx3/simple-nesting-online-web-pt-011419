@@ -81,10 +81,16 @@ def adding_matz
           :languages => ["C"]
         }
      }
-programmer_hash.merge(:yukihiro_matsumoto => {
-  :known_for => "Ruby",
-  :languages => ["LISP", "C"]
+#programmer_hash.merge(:yukihiro_matsumoto => {
+ # :known_for => "Ruby",
+  #:languages => ["LISP", "C"]
+#
 })
+    programmer_hash[:yukihiro_matsumoto]
+    
+    To add something, you just need to put it in the programmer_hash[:new_symbol] = {hash you want to add}
+
+then you need to return the programmer_hash afterwards
     
 end
 
